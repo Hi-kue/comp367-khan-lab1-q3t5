@@ -14,7 +14,8 @@ namespace MyCoreApp.Pages
 
         public void OnGet()
         {
-
+            string fullName = "Muhammad Bilal Khan";
+            ViewData["Full Name"] = fullName;
         }
     }
 }
